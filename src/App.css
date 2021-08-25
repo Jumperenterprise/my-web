@@ -1,38 +1,58 @@
-.App {
+:root {
+  --color-primary: #fca404;
+  --color-secondary: #641644;
+  --color-prymary-dark: #976201;
+  --color-prymary-light: #fcd47a;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navigation {
+  opacity: 0.8;
+}
+
+.title {
+  color: var(--color-primary);
+}
+
+.profile-img {
+  max-width: 18em;
+  border: 8px solid var(--color-primary);
+}
+
+.bg-image {
+  background-image: url('https://i.ibb.co/wKVdbVZ/header.jpg');
+  background-position: center;
+  background-size: cover;
+}
+
+.skill-img {
+  max-width: 8em;
+}
+
+.sevices-card {
+  max-width: 15em;
   text-align: center;
+  background-color: #c9c9c9;
+  margin: 5px;
+  padding: 15px;
+  border-radius: 5%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.card {
+  margin: 5px;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.social-container {
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  align-items: center;
 }
 
-.App-link {
-  color: #61dafb;
-}
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.social-img {
+  width: 4rem;
 }
