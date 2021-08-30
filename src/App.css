@@ -1,3 +1,5 @@
+@import url('./hover-min.css');
+
 :root {
   --color-primary: #fca404;
   --color-secondary: #641644;
@@ -13,6 +15,7 @@
 
 .navigation {
   opacity: 0.8;
+  background-color: #000;
 }
 
 .title {
@@ -55,4 +58,13 @@
 
 .social-img {
   width: 4rem;
+}
+
+.link-card {
+  text-decoration: none;
+  color: #000;
+}
+
+.link-card:hover {
+  color: #000;
 }

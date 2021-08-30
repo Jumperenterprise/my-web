@@ -6,13 +6,15 @@ class Portafolio extends React.Component {
     return (
       <Container className="mt-5 mb-5" id="portafolio">
         <Row>
-          <Col className="text-center">
-            <p className="fs-2 fw-bold">Portafolio</p>
-            <p>Here you can see some of my projects</p>
+          <Col className="text-center mt-4">
+            <p className="fs-2 fw-bold mt-5">Portafolio</p>
+            <p>Vous trouverez ici mes projets</p>
           </Col>
         </Row>
         <Row className="">
+          
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/lego-landing-page/" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[0].img} />
               <Card.Body>
@@ -20,8 +22,10 @@ class Portafolio extends React.Component {
                 <Card.Text>{card[0].description}</Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/fed-parkourcr/" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[1].img} />
               <Card.Body>
@@ -31,8 +35,10 @@ class Portafolio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://e-market-cr.web.app/home" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[2].img} />
               <Card.Body>
@@ -42,10 +48,12 @@ class Portafolio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
         </Row>
         <Row className="mt-3">
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/blog-jumper/" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[3].img} />
               <Card.Body>
@@ -55,8 +63,10 @@ class Portafolio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/catches-bunnys/" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[4].img} />
               <Card.Body>
@@ -66,8 +76,10 @@ class Portafolio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
           <Col xs={12} lg={4}>
+          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/simon-dice-game/" target="_blank" rel="noreferrer">
             <Card className="shadow mb-5 bg-body rounded">
               <Card.Img variant="top" src={card[5].img} />
               <Card.Body>
@@ -77,6 +89,7 @@ class Portafolio extends React.Component {
                 </Card.Text>
               </Card.Body>
             </Card>
+            </a>
           </Col>
         </Row>
       </Container>
@@ -84,14 +97,6 @@ class Portafolio extends React.Component {
   }
 }
 
-const cardImages = [
-  '/img/CardImg-1.png',
-  'https://i.ibb.co/MpM92Yx/Captura-de-pantalla-de-2021-08-18-17-13-14.png',
-  'https://i.ibb.co/BVBwwSs/E-market.png',
-  'https://i.ibb.co/ByvT3Xy/Captura-de-pantalla-de-2021-06-22-19-17-11.png',
-  'https://i.ibb.co/SvBBMkH/Captura-de-pantalla-de-2021-08-18-17-08-45.png',
-  'https://i.ibb.co/kmhqTCC/Captura-de-pantalla-de-2021-08-18-17-11-31.png',
-]
 
 const card = [
   {

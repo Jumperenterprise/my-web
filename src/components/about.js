@@ -8,12 +8,12 @@ class About extends React.Component {
         <Container className="mt-5 mb-5 shadow p-3 mb-5 bg-body rounded">
           <Row className="text-center">
             <Col>
-            <p className="fs-2 fw-bold border-bottom border-primary">About Me</p>
+            <p className="fs-2 fw-bold border-bottom border-primary">A propos de moi</p>
             </Col>            
           </Row>
           <Row>
             <Col className="p-5">
-              <p className="fs-3">Who am I?</p>
+              <p className="fs-3">Qui suis-je ?</p>
               <p>
                 {' '}
                 Passionné par la programmation WEB, je suis expert en
@@ -24,7 +24,7 @@ class About extends React.Component {
                 programmation. J'ai comme projet professionnel de devenir
                 FullStack.
               </p>
-              <a href={link} className="btn btn-primary">
+              <a href={link} className="btn btn-primary hvr-grow">
                 Hire Me
               </a>
             </Col>
@@ -34,34 +34,34 @@ class About extends React.Component {
                 <Row>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[0]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[0]} />
                     </div>
                   </Col>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[1]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[1]} />
                     </div>
                   </Col>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[2]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[2]} />
                     </div>
                   </Col>
                 </Row>
                 <Row>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[3]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[3]} />
                     </div>
                   </Col>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[4]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[4]} />
                     </div>
                   </Col>
                   <Col xs={4}>
                     <div className="card bg-secondary p-1">
-                      <Image className="skill-img" src={iconsSkills[5]} />
+                      <Image className="skill-img hvr-pop" src={iconsSkills[5]} />
                     </div>
                   </Col>
                 </Row>

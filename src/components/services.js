@@ -14,16 +14,16 @@ class Services extends React.Component {
   render() {
     return (
       <Container id="services" className="mt-5 mb-5">
-        <Row className="text-center">
-          <p className="fs-2 fw-bold">Services</p>
+        <Row className="text-center mt-5">
+          <p className="fs-2 fw-bold mt-5">Services</p>
         </Row>
         <Row>
-          <p className="text-center">Services i offer to my clients</p>
+          <p className="text-center">Services que j'offre à mes clients</p>
         </Row>
 
         <Row className="mx-auto">
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faMobile} />
               <p>Fully Responsive</p>
               <p>
@@ -35,7 +35,7 @@ class Services extends React.Component {
           </Col>
 
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faPencilRuler} />
               <p>Creativity Design</p>
               <p>
@@ -47,7 +47,7 @@ class Services extends React.Component {
           </Col>
 
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faCode} />
               <p>Development</p>
               <p>
@@ -60,7 +60,7 @@ class Services extends React.Component {
 
         <Row className="mx-auto">
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faThumbsUp} />
               <p>Social Media Integration</p>
               <p>
@@ -71,7 +71,7 @@ class Services extends React.Component {
           </Col>
 
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faTachometerAlt} />
               <p>Performance</p>
               <p>
@@ -83,7 +83,7 @@ class Services extends React.Component {
           </Col>
 
           <Col sm={4} className="d-flex justify-content-center">
-            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded">
+            <div className="sevices-card shadow-lg p-3 mb-5 bg-body rounded hvr-float">
               <FontAwesomeIcon icon={faCrosshairs} />
               <p>SEO</p>
               <p>

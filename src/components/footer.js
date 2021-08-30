@@ -16,24 +16,27 @@ class Footer extends React.Component {
             <a
               href="https://www.linkedin.com/in/andrew-jumper/"
               target="_blank"
+              rel="noreferrer"
             >
               <Image className="img-fluid social-img" src={social[0]} />
             </a>
-            <a href="https://github.com/Jumperenterprise" target="_blank">
+            <a href="https://github.com/Jumperenterprise" target="_blank" rel="noreferrer">
               <Image className="img-fluid social-img" src={social[1]} />
             </a>
-            <a href="mailto:andrew.jumper.ent@gmail.com" target="_blank">
+            <a href="mailto:andrew.jumper.ent@gmail.com" target="_blank" rel="noreferrer">
               <Image className="img-fluid social-img" src={social[2]} />
             </a>
             <a
               href="https://www.instagram.com/jumper_enterprise/"
               target="_blank"
+              rel="noreferrer"
             >
               <Image className="img-fluid social-img" src={social[3]} />
             </a>
             <a
               href="https://www.youtube.com/channel/UCApJwduAZ76eqhDKDcwsNNg"
               target="_blank"
+              rel="noreferrer"
             >
               <Image className="img-fluid social-img" src={social[4]} />
             </a>
