@@ -24,11 +24,9 @@
 
 .profile-img {
   max-width: 18em;
-  border: 8px solid var(--color-primary);
 }
 
 .bg-image {
-  background-image: url('https://i.ibb.co/wKVdbVZ/header.jpg');
   background-position: center;
   background-size: cover;
 }
@@ -108,4 +106,28 @@
 
 .card-img-top:hover {
   transform: scale(1.8);
+}
+
+.text--property {
+  font-size: 1.5rem;
+}
+
+.text__h1--property {
+  font-size: 1.5rem;
+}
+
+.text__h3--property {
+  font-size: 1.2rem;
+}
+
+.down-icon {
+  display: inline;
+  justify-content: center;
+  width: 50px;
+}
+
+.container__icon {
+  width: 90px;
+  display: flex;
+  justify-content: center;
 }

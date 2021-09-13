@@ -13,15 +13,20 @@ class Header extends React.Component {
               <Image
                 className="profile-img animate__animated animate__fadeInLeft"
                 src={profileImg}
-                roundedCircle
               />
               </Transition>
             </Col>
             <Col className="blur-effect animate__animated animate__fadeInRight">
-              <h3 className="text-white">Bonjour!</h3>
-              <h1 className="title">Je suis Andrew Alfaro</h1>
-              <h4 className="text-white">DÉVELOPPEUR FRONT-END</h4>
+              <h2 className="text--property">Bonjour!</h2>
+              <h1 className="text__h1--property title">Je suis Andrew Alfaro</h1>
+              <h3 className="text__h3--property">DÉVELOPPEUR FRONT-END</h3>
+              <a className="buttom-primary" href="#portafolio">Mes projets !</a>
             </Col>
+            <Row>
+            <Col className="container__icon">
+            <img className="down-icon" alt="" src={down}/>
+            </Col>
+          </Row>
           </Row>
         </Container>
       </Container>
@@ -29,6 +34,7 @@ class Header extends React.Component {
   }
 }
 
-const profileImg = '/img/descargar.png'
+const profileImg = '/img/header-img.png'
+const down = '/img/icons/download.gif'
 
 export default Header
