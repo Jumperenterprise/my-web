@@ -1,5 +1,51 @@
 import React from 'react'
-import {Container, Row, Col, Card} from 'react-bootstrap'
+import CardPortaflio from './Card'
+import {Container, Row, Col} from 'react-bootstrap'
+
+const cards = [
+  {
+    id: 1,
+    name: 'Landing Lego Page',
+    description: `Cette Lading page a été créée avec HTML, CSS et Javascript. Il comporte des animations CSS et une modal créée avec JS pour afficher un carousel.`,
+    img: '/img/CardImg-1.png',
+    url: 'https://jumperenterprise.github.io/lego-landing-page/',
+  },
+  {
+    id: 2,
+    name: 'Fédération de Parkour Costa Rica',
+    description: `Une page créée avec HTML, CSS et Javascript. Utilisation de Materealize comme Framework de conception et de Firebase pour connecter les formulaires.`,
+    img: 'https://i.ibb.co/MpM92Yx/Captura-de-pantalla-de-2021-08-18-17-13-14.png',
+    url: 'https://jumperenterprise.github.io/fed-parkourcr/',
+  },
+  {
+    id: 3,
+    name: 'E-Commerce',
+    description: `E-commerce créé avec Angular et Angular Material, en utilisant des composants réactifs, connectés à une API en utilisant les meilleures pratiques.`,
+    img: 'https://i.ibb.co/BVBwwSs/E-market.png',
+    url: 'https://e-market-cr.web.app/home',
+  },
+  {
+    id: 4,
+    name: 'Blog',
+    description: `Ce blog est un exemple de mise en page CSS, utilisant Materialize. Utiliser les meilleures pratiques pour passer de Figma à une page web.`,
+    img: 'https://i.ibb.co/ByvT3Xy/Captura-de-pantalla-de-2021-06-22-19-17-11.png',
+    url: 'https://jumperenterprise.github.io/blog-jumper/',
+  },
+  {
+    id: 5,
+    name: 'Catches Bunnys',
+    description: `Il s'agit d'un jeu créé avec HTML, CSS et Javascript. Vous pouvez interagir pour attraper les lapins, il y a un compteur pour savoir si vous les avez attrapés.`,
+    img: 'https://i.ibb.co/SvBBMkH/Captura-de-pantalla-de-2021-08-18-17-08-45.png',
+    url: 'https://jumperenterprise.github.io/catches-bunnys/',
+  },
+  {
+    id: 6,
+    name: 'Simon Dit',
+    description: `Un jeu dont la logique est créée en Javascript. Le jeu consiste à suivre les lumières selon leur ordre et comporte plusieurs niveaux de difficulté.`,
+    img: 'https://i.ibb.co/kmhqTCC/Captura-de-pantalla-de-2021-08-18-17-11-31.png',
+    url: 'https://jumperenterprise.github.io/simon-dice-game/',
+  },
+]
 
 class Portafolio extends React.Component {
   render() {
@@ -11,124 +57,21 @@ class Portafolio extends React.Component {
             <p>Vous trouverez ici mes projets</p>
           </Col>
         </Row>
-        <Row className="">
-          
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/lego-landing-page/" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[0].img} />
-              <Card.Body>
-                <Card.Title>{card[0].name}</Card.Title>
-                <Card.Text>{card[0].description}</Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/fed-parkourcr/" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[1].img} />
-              <Card.Body>
-                <Card.Title>{card[1].name}</Card.Title>
-                <Card.Text>
-                  {card[1].description}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://e-market-cr.web.app/home" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[2].img} />
-              <Card.Body>
-                <Card.Title>{card[2].name}</Card.Title>
-                <Card.Text>
-                    {card[2].description}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
-        </Row>
-        <Row className="mt-3">
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/blog-jumper/" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[3].img} />
-              <Card.Body>
-                <Card.Title>{card[3].name}</Card.Title>
-                <Card.Text>
-                  {card[3].description}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/catches-bunnys/" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[4].img} />
-              <Card.Body>
-                <Card.Title>{card[4].name}</Card.Title>
-                <Card.Text>
-                {card[4].description}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
-          <Col xs={12} lg={4}>
-          <a className="link-card hvr-grow" href="https://jumperenterprise.github.io/simon-dice-game/" target="_blank" rel="noreferrer">
-            <Card className="shadow mb-5 bg-body rounded">
-              <Card.Img variant="top" src={card[5].img} />
-              <Card.Body>
-                <Card.Title>{card[5].name}</Card.Title>
-                <Card.Text>
-                {card[5].description}
-                </Card.Text>
-              </Card.Body>
-            </Card>
-            </a>
-          </Col>
+        <Row>
+          {cards.map((card) => (
+            <div className="col-lg-4 col-12" key={card.id}>
+              <CardPortaflio
+                title={card.name}
+                imgUrl={card.img}
+                description={card.description}
+                url={card.url}
+              />
+            </div>
+          ))}
         </Row>
       </Container>
     )
   }
 }
-
-
-const card = [
-  {
-    name: 'Landing Lego Page',
-    description: `Cette Lading page a été créée avec HTML, CSS et Javascript. Il comporte des animations CSS et une modal créée avec JS pour afficher un carousel.`,
-    img: '/img/CardImg-1.png',
-  },
-  {
-    name: 'Fédération de Parkour Costa Rica',
-    description: `Une page créée avec HTML, CSS et Javascript. Utilisation de Materealize comme Framework de conception et de Firebase pour connecter les formulaires.`,
-    img: 'https://i.ibb.co/MpM92Yx/Captura-de-pantalla-de-2021-08-18-17-13-14.png'
-  },
-  {
-    name: 'E-Commerce',
-    description: `E-commerce créé avec Angular et Angular Material, en utilisant des composants réactifs, connectés à une API en utilisant les meilleures pratiques.`,
-    img: 'https://i.ibb.co/BVBwwSs/E-market.png'
-  },
-  {
-    name: 'Blog',
-    description: `Ce blog est un exemple de mise en page CSS, utilisant Materialize. Utiliser les meilleures pratiques pour passer de Figma à une page web.`,
-    img: 'https://i.ibb.co/ByvT3Xy/Captura-de-pantalla-de-2021-06-22-19-17-11.png'
-  },
-  {
-    name: 'Catches Bunnys',
-    description: `Il s'agit d'un jeu créé avec HTML, CSS et Javascript. Vous pouvez interagir pour attraper les lapins, il y a un compteur pour savoir si vous les avez attrapés.`,
-    img: 'https://i.ibb.co/SvBBMkH/Captura-de-pantalla-de-2021-08-18-17-08-45.png'
-  },
-  {
-    name: 'Simon Dit',
-    description: `Un jeu dont la logique est créée en Javascript. Le jeu consiste à suivre les lumières selon leur ordre et comporte plusieurs niveaux de difficulté.`,
-    img: 'https://i.ibb.co/kmhqTCC/Captura-de-pantalla-de-2021-08-18-17-11-31.png'
-  },
-]
 
 export default Portafolio

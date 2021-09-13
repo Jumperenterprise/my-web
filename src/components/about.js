@@ -24,7 +24,7 @@ class About extends React.Component {
                 programmation. J'ai comme projet professionnel de devenir
                 FullStack.
               </p>
-              <a href={link} className="btn btn-primary hvr-grow">
+              <a href={link} className="buttom-primary hvr-grow">
                 Hire Me
               </a>
             </Col>
