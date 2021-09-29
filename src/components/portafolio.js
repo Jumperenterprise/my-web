@@ -21,8 +21,8 @@ const cards = [
     id: 3,
     name: 'E-Commerce',
     description: `E-commerce créé avec Angular et Angular Material, en utilisant des composants réactifs, connectés à une API en utilisant les meilleures pratiques.`,
-    img: 'https://i.ibb.co/BVBwwSs/E-market.png',
-    url: 'https://e-market-cr.web.app/home',
+    img: 'https://i.ibb.co/XX9mLBH/Captura-de-pantalla-de-2021-09-29-18-28-00.png',
+    url: 'https://base-store-cr.web.app',
   },
   {
     id: 4,

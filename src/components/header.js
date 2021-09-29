@@ -24,7 +24,7 @@ class Header extends React.Component {
             </Col>
             <Row>
             <Col className="container__icon">
-            <img className="down-icon" alt="" src={down}/>
+             <a href="#about"><img className="down-icon" alt="" src={down}/></a>
             </Col>
           </Row>
           </Row>
