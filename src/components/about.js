@@ -105,10 +105,9 @@ const iconsSkills = [
   'img/icons/html.png',
   'img/icons/css3.png',
   'img/icons/javascript.png',
-  'img/icons/npm.png',
-  'img/icons/nodejs.png',
   'img/icons/react-native.png',
   'img/icons/angularjs.png',
+  'img/icons/nodejs.png',
 ]
 
 const link =
